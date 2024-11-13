@@ -24,7 +24,7 @@ export const authMiddleware = async (
   try {
     const decoded = jwt.verify(
       token,
-      process.env.JWT_SECRET as string
+      process.env.SECRECT_KEY as string
     ) as JwtPayload;
 
     const tokenRepository = AppDataSource.getRepository(Token);

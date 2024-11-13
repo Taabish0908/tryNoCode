@@ -13,7 +13,7 @@ export const sendToken = (
 ): Response => {
   const token = jwt.sign(
     { id: user._id },
-    process.env.JWT_SECRET as string 
+    process.env.SECRECT_KEY as string 
     //   {
     //   expiresIn: "15d",
     // }

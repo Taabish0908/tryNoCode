@@ -40,12 +40,11 @@ export const register = async (req: Request, res: Response): Promise<void> => {
   }
   const hashedPassword = await bcrypt.hash(password, 10);
 
-  try {
+  // try {
     const roleRepository = AppDataSource.getRepository(Role);
     const userRepository = AppDataSource.getRepository(User);
 
     const roleEntity = await roleRepository.findOneBy({ name: role });
-    console.log(roleEntity, "role entity");
     if (!roleEntity) {
       res.status(400).json({ message: "Invalid role" });
       return;
@@ -63,8 +62,7 @@ export const register = async (req: Request, res: Response): Promise<void> => {
 
     const token = jwt.sign(
       { userId: newUser.id, role: newUser.role.name },
-      // "your_secret_key",
-      process.env.JWT_SECRET as string,
+      process.env.SECRECT_KEY as string,
       { expiresIn: "1h" }
     );
 
@@ -78,10 +76,12 @@ export const register = async (req: Request, res: Response): Promise<void> => {
       },
       token,
     });
-  } catch (error) {
-    console.error("Error during registration:", error);
-    res.status(500).json({ message: "Internal server error" });
-  }
+    return
+  // } catch (error) {
+    // console.error("Error during registration:", error);
+    // res.status(500).json({ message: "Internal server error" });
+    // return
+  // }
 };
 
 export const login = async (req: Request, res: Response): Promise<void> => {
