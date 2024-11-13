@@ -1,0 +1,191 @@
+2024-11-13T08:22:33.406Z: [SERVER] Database connected successfully
+2024-11-13T08:22:33.409Z: [SERVER] Server started on port 3000
+2024-11-13T08:22:59.427Z: [SERVER] Database connected successfully
+2024-11-13T08:22:59.430Z: [SERVER] Server started on port 3000
+2024-11-13T08:23:13.766Z: [SERVER] Database connected successfully
+2024-11-13T08:23:13.770Z: [SERVER] Server started on port 3000
+2024-11-13T08:23:57.211Z: [SERVER] Database connected successfully
+2024-11-13T08:23:57.214Z: [SERVER] Server started on port 3000
+2024-11-13T08:24:34.913Z: [GLOBAL] Incoming GET request to /test-logging
+2024-11-13T08:24:34.914Z: [TEST] Test logging endpoint hit
+2024-11-13T08:25:25.920Z: [GLOBAL] Incoming GET request to /auth/logout
+2024-11-13T08:25:25.921Z: [AUTH] Request to auth route: GET /auth/logout
+2024-11-13T08:25:25.922Z: [AUTH ROUTER] Processing: GET /logout
+2024-11-13T08:25:44.769Z: [GLOBAL] Incoming POST request to /auth/logout
+2024-11-13T08:25:44.769Z: [AUTH] Request to auth route: POST /auth/logout
+2024-11-13T08:25:44.770Z: [AUTH ROUTER] Processing: POST /logout
+2024-11-13T08:25:44.770Z: [AUTH ROUTER] Logout route hit
+2024-11-13T08:25:44.771Z: [LOGOUT] Starting logout process
+2024-11-13T08:25:44.771Z: [LOGOUT] Token extracted: not found
+2024-11-13T08:25:44.771Z: [LOGOUT] No token provided in request
+2024-11-13T08:28:28.140Z: [GLOBAL] Incoming POST request to /auth/logout
+2024-11-13T08:28:28.141Z: [AUTH] Request to auth route: POST /auth/logout
+2024-11-13T08:28:28.141Z: [AUTH ROUTER] Processing: POST /logout
+2024-11-13T08:28:28.142Z: [AUTH ROUTER] Logout route hit
+2024-11-13T08:28:28.142Z: [LOGOUT] Starting logout process
+2024-11-13T08:28:28.142Z: [LOGOUT] Token extracted: exists
+2024-11-13T08:28:28.142Z: [LOGOUT] Getting token repository
+2024-11-13T08:28:28.143Z: [LOGOUT] Searching for token in database
+2024-11-13T08:28:28.189Z: [LOGOUT] Database search result: found
+2024-11-13T08:28:28.189Z: [LOGOUT] Updating token status
+2024-11-13T08:28:28.231Z: [LOGOUT] Token updated successfully
+2024-11-13T08:30:55.976Z: [SERVER] Database connected successfully
+2024-11-13T08:30:55.979Z: [SERVER] Server started on port 3000
+2024-11-13T08:31:03.220Z: [SERVER] Database connected successfully
+2024-11-13T08:31:03.224Z: [SERVER] Server started on port 3000
+2024-11-13T08:31:28.411Z: [SERVER] Database connected successfully
+2024-11-13T08:31:28.413Z: [SERVER] Server started on port 3000
+2024-11-13T08:31:31.654Z: [SERVER] Database connected successfully
+2024-11-13T08:31:31.658Z: [SERVER] Server started on port 3000
+2024-11-13T08:31:40.728Z: [GLOBAL] Incoming POST request to /auth/logout
+2024-11-13T08:31:40.729Z: [AUTH] Request to auth route: POST /auth/logout
+2024-11-13T08:31:40.729Z: [AUTH ROUTER] Processing: POST /logout
+2024-11-13T08:31:40.730Z: [AUTH ROUTER] Logout route hit
+2024-11-13T08:32:20.778Z: [SERVER] Database connected successfully
+2024-11-13T08:32:20.781Z: [SERVER] Server started on port 3000
+2024-11-13T08:32:25.222Z: [SERVER] Database connected successfully
+2024-11-13T08:32:25.225Z: [SERVER] Server started on port 3000
+2024-11-13T08:32:27.789Z: [SERVER] Database connected successfully
+2024-11-13T08:32:27.792Z: [SERVER] Server started on port 3000
+2024-11-13T08:32:30.699Z: [GLOBAL] Incoming POST request to /auth/logout
+2024-11-13T08:32:30.700Z: [AUTH] Request to auth route: POST /auth/logout
+2024-11-13T08:35:38.349Z: [SERVER] Database connected successfully
+2024-11-13T08:35:38.352Z: [SERVER] Server started on port 3000
+2024-11-13T08:35:43.787Z: [SERVER] Database connected successfully
+2024-11-13T08:35:43.791Z: [SERVER] Server started on port 3000
+2024-11-13T08:35:45.328Z: [SERVER] Database connected successfully
+2024-11-13T08:35:45.333Z: [SERVER] Server started on port 3000
+2024-11-13T08:35:48.691Z: [SERVER] Database connected successfully
+2024-11-13T08:35:48.694Z: [SERVER] Server started on port 3000
+2024-11-13T08:40:23.048Z: [SERVER] Database connected successfully
+2024-11-13T08:40:23.050Z: [SERVER] Server started on port 3000
+2024-11-13T08:40:34.555Z: [SERVER] Database connected successfully
+2024-11-13T08:40:34.558Z: [SERVER] Server started on port 3000
+2024-11-13T08:40:36.466Z: [SERVER] Database connected successfully
+2024-11-13T08:40:36.468Z: [SERVER] Server started on port 3000
+2024-11-13T08:40:38.633Z: [SERVER] Database connected successfully
+2024-11-13T08:40:38.636Z: [SERVER] Server started on port 3000
+2024-11-13T08:40:43.194Z: [SERVER] Database connected successfully
+2024-11-13T08:40:43.196Z: [SERVER] Server started on port 3000
+2024-11-13T08:40:57.892Z: [SERVER] Database connected successfully
+2024-11-13T08:40:57.895Z: [SERVER] Server started on port 3000
+2024-11-13T08:41:31.729Z: [SERVER] Database connected successfully
+2024-11-13T08:41:31.732Z: [SERVER] Server started on port 3000
+2024-11-13T08:41:35.700Z: [SERVER] Database connected successfully
+2024-11-13T08:41:35.704Z: [SERVER] Server started on port 3000
+2024-11-13T08:41:39.763Z: [SERVER] Database connected successfully
+2024-11-13T08:41:39.766Z: [SERVER] Server started on port 3000
+2024-11-13T08:41:42.133Z: [SERVER] Database connected successfully
+2024-11-13T08:41:42.137Z: [SERVER] Server started on port 3000
+2024-11-13T08:41:57.860Z: [SERVER] Database connected successfully
+2024-11-13T08:41:57.862Z: [SERVER] Server started on port 3000
+2024-11-13T08:42:02.478Z: [SERVER] Database connected successfully
+2024-11-13T08:42:02.481Z: [SERVER] Server started on port 3000
+2024-11-13T08:42:12.661Z: [SERVER] Database connected successfully
+2024-11-13T08:42:12.664Z: [SERVER] Server started on port 3000
+2024-11-13T08:42:35.289Z: [SERVER] Database connected successfully
+2024-11-13T08:42:35.292Z: [SERVER] Server started on port 3000
+2024-11-13T08:42:55.948Z: [SERVER] Database connected successfully
+2024-11-13T08:42:55.951Z: [SERVER] Server started on port 3000
+2024-11-13T08:43:00.073Z: [SERVER] Database connected successfully
+2024-11-13T08:43:00.075Z: [SERVER] Server started on port 3000
+2024-11-13T08:43:02.257Z: [SERVER] Database connected successfully
+2024-11-13T08:43:02.260Z: [SERVER] Server started on port 3000
+2024-11-13T08:43:13.319Z: [SERVER] Database connected successfully
+2024-11-13T08:43:13.323Z: [SERVER] Server started on port 3000
+2024-11-13T08:43:17.259Z: [SERVER] Database connected successfully
+2024-11-13T08:43:17.262Z: [SERVER] Server started on port 3000
+2024-11-13T08:43:31.676Z: [SERVER] Database connected successfully
+2024-11-13T08:43:31.679Z: [SERVER] Server started on port 3000
+2024-11-13T08:44:09.100Z: [SERVER] Database connected successfully
+2024-11-13T08:44:09.105Z: [SERVER] Server started on port 3000
+2024-11-13T08:44:12.077Z: [SERVER] Database connected successfully
+2024-11-13T08:44:12.080Z: [SERVER] Server started on port 3000
+2024-11-13T08:44:19.193Z: [SERVER] Database connected successfully
+2024-11-13T08:44:19.197Z: [SERVER] Server started on port 3000
+2024-11-13T08:44:21.478Z: [SERVER] Database connected successfully
+2024-11-13T08:44:21.481Z: [SERVER] Server started on port 3000
+2024-11-13T08:44:29.586Z: [SERVER] Database connected successfully
+2024-11-13T08:44:29.589Z: [SERVER] Server started on port 3000
+2024-11-13T08:44:32.156Z: [SERVER] Database connected successfully
+2024-11-13T08:44:32.162Z: [SERVER] Server started on port 3000
+2024-11-13T08:44:37.454Z: [SERVER] Database connected successfully
+2024-11-13T08:44:37.457Z: [SERVER] Server started on port 3000
+2024-11-13T08:44:40.679Z: [SERVER] Database connected successfully
+2024-11-13T08:44:40.682Z: [SERVER] Server started on port 3000
+2024-11-13T08:44:57.658Z: [GLOBAL] Incoming GET request to /auth/get-my-info
+2024-11-13T08:44:57.658Z: [AUTH] Request to auth route: GET /auth/get-my-info
+2024-11-13T08:45:14.589Z: [SERVER] Database connected successfully
+2024-11-13T08:45:14.596Z: [SERVER] Server started on port 3000
+2024-11-13T08:45:17.685Z: [SERVER] Database connected successfully
+2024-11-13T08:45:17.688Z: [SERVER] Server started on port 3000
+2024-11-13T08:45:29.727Z: [GLOBAL] Incoming GET request to /auth/get-my-info
+2024-11-13T08:45:29.727Z: [AUTH] Request to auth route: GET /auth/get-my-info
+2024-11-13T08:45:59.881Z: [SERVER] Database connected successfully
+2024-11-13T08:45:59.885Z: [SERVER] Server started on port 3000
+2024-11-13T08:46:02.290Z: [GLOBAL] Incoming GET request to /auth/get-my-info
+2024-11-13T08:46:02.290Z: [AUTH] Request to auth route: GET /auth/get-my-info
+2024-11-13T08:46:21.206Z: [GLOBAL] Incoming GET request to /auth/login
+2024-11-13T08:46:21.207Z: [AUTH] Request to auth route: GET /auth/login
+2024-11-13T08:46:27.790Z: [GLOBAL] Incoming POST request to /auth/login
+2024-11-13T08:46:27.790Z: [AUTH] Request to auth route: POST /auth/login
+2024-11-13T08:46:54.851Z: [GLOBAL] Incoming GET request to /auth/get-my-info
+2024-11-13T08:46:54.851Z: [AUTH] Request to auth route: GET /auth/get-my-info
+2024-11-13T08:47:49.166Z: [SERVER] Database connected successfully
+2024-11-13T08:47:49.170Z: [SERVER] Server started on port 3000
+2024-11-13T08:48:21.892Z: [SERVER] Database connected successfully
+2024-11-13T08:48:21.895Z: [SERVER] Server started on port 3000
+2024-11-13T08:49:09.363Z: [SERVER] Database connected successfully
+2024-11-13T08:49:09.366Z: [SERVER] Server started on port 3000
+2024-11-13T08:49:12.414Z: [SERVER] Database connected successfully
+2024-11-13T08:49:12.418Z: [SERVER] Server started on port 3000
+2024-11-13T08:49:17.220Z: [SERVER] Database connected successfully
+2024-11-13T08:49:17.228Z: [SERVER] Server started on port 3000
+2024-11-13T08:49:22.923Z: [SERVER] Database connected successfully
+2024-11-13T08:49:22.929Z: [SERVER] Server started on port 3000
+2024-11-13T08:49:28.594Z: [SERVER] Database connected successfully
+2024-11-13T08:49:28.597Z: [SERVER] Server started on port 3000
+2024-11-13T08:49:34.369Z: [SERVER] Database connected successfully
+2024-11-13T08:49:34.372Z: [SERVER] Server started on port 3000
+2024-11-13T08:49:39.935Z: [SERVER] Database connected successfully
+2024-11-13T08:49:39.938Z: [SERVER] Server started on port 3000
+2024-11-13T08:49:45.665Z: [SERVER] Database connected successfully
+2024-11-13T08:49:45.669Z: [SERVER] Server started on port 3000
+2024-11-13T08:49:59.475Z: [SERVER] Database connected successfully
+2024-11-13T08:49:59.481Z: [SERVER] Server started on port 3000
+2024-11-13T08:50:03.803Z: [SERVER] Database connected successfully
+2024-11-13T08:50:03.806Z: [SERVER] Server started on port 3000
+2024-11-13T08:50:05.629Z: [GLOBAL] Incoming GET request to /auth/get-my-info
+2024-11-13T08:50:05.629Z: [AUTH] Request to auth route: GET /auth/get-my-info
+2024-11-13T08:51:13.469Z: [GLOBAL] Incoming GET request to /auth/get-my-info
+2024-11-13T08:51:13.470Z: [AUTH] Request to auth route: GET /auth/get-my-info
+2024-11-13T09:28:18.119Z: [SERVER] Database connected successfully
+2024-11-13T09:28:18.122Z: [SERVER] Server started on port 3000
+2024-11-13T09:28:32.601Z: [SERVER] Database connected successfully
+2024-11-13T09:28:32.604Z: [SERVER] Server started on port 3000
+2024-11-13T09:28:42.976Z: [SERVER] Database connected successfully
+2024-11-13T09:28:42.980Z: [SERVER] Server started on port 3000
+2024-11-13T09:28:58.486Z: [SERVER] Database connected successfully
+2024-11-13T09:28:58.489Z: [SERVER] Server started on port 3000
+2024-11-13T09:30:28.095Z: [SERVER] Database connected successfully
+2024-11-13T09:30:28.099Z: [SERVER] Server started on port 3000
+2024-11-13T09:30:31.136Z: [SERVER] Database connected successfully
+2024-11-13T09:30:31.140Z: [SERVER] Server started on port 3000
+2024-11-13T09:30:34.940Z: [SERVER] Database connected successfully
+2024-11-13T09:30:34.944Z: [SERVER] Server started on port 3000
+2024-11-13T09:30:37.031Z: [SERVER] Database connected successfully
+2024-11-13T09:30:37.034Z: [SERVER] Server started on port 3000
+2024-11-13T09:30:41.528Z: [SERVER] Database connected successfully
+2024-11-13T09:30:41.530Z: [SERVER] Server started on port 3000
+2024-11-13T09:30:46.880Z: [SERVER] Database connected successfully
+2024-11-13T09:30:46.882Z: [SERVER] Server started on port 3000
+2024-11-13T09:30:50.357Z: [SERVER] Database connected successfully
+2024-11-13T09:30:50.360Z: [SERVER] Server started on port 3000
+2024-11-13T09:30:53.289Z: [SERVER] Database connected successfully
+2024-11-13T09:30:53.292Z: [SERVER] Server started on port 3000
+2024-11-13T09:31:01.452Z: [SERVER] Database connected successfully
+2024-11-13T09:31:01.456Z: [SERVER] Server started on port 3000
+2024-11-13T09:31:05.172Z: [SERVER] Database connected successfully
+2024-11-13T09:31:05.174Z: [SERVER] Server started on port 3000
+2024-11-13T09:32:33.612Z: Incoming GET request to /user/get-my-info
+2024-11-13T09:32:52.341Z: Incoming GET request to /user/get-my-info
