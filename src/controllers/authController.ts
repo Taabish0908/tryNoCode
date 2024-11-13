@@ -40,7 +40,7 @@ export const register = async (req: Request, res: Response): Promise<void> => {
   }
   const hashedPassword = await bcrypt.hash(password, 10);
 
-  // try {
+  try {
     const roleRepository = AppDataSource.getRepository(Role);
     const userRepository = AppDataSource.getRepository(User);
 
@@ -77,11 +77,11 @@ export const register = async (req: Request, res: Response): Promise<void> => {
       token,
     });
     return
-  // } catch (error) {
-    // console.error("Error during registration:", error);
-    // res.status(500).json({ message: "Internal server error" });
-    // return
-  // }
+  } catch (error) {
+    console.error("Error during registration:", error);
+    res.status(500).json({ message: "Internal server error" });
+    return
+  }
 };
 
 export const login = async (req: Request, res: Response): Promise<void> => {
