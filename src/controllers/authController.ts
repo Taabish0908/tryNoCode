@@ -106,7 +106,7 @@ export const login = async (req: Request, res: Response): Promise<void> => {
 
   const token = jwt.sign(
     { id: user.id, role: user.role.name },
-    "your-secret-key",
+    process.env.SECRECT_KEY as string,
     { expiresIn: "1h" }
   );
   const newToken = tokenRepository.create({
@@ -122,10 +122,7 @@ export const login = async (req: Request, res: Response): Promise<void> => {
 
 // Logout function
 export const logout = async (req: Request, res: Response): Promise<void> => {
-  const token = req.headers["authorization"]?.split(" ")[1];
-  console.log(req.headers, "headers");
-  console.info(token, "token");
-  console.log(token, "token");
+  const token = req.headers["authorization"]?.split(" ")[1];;
   if (!token) {
     res.status(400).json({ message: "Token not found..", token:token });
     return;
